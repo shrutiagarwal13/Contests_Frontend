@@ -8,7 +8,7 @@ Display CodeForces contests using Vanilla JavaScript.
 
 ## TO RUN:
 
-git Clone: `https://github.com/shruti1302/Contests_Frontend.git`
+`git clone https://github.com/shruti1302/Contests_Frontend.git`
 
 `python -m http.server` (for version 3 and above)
 
