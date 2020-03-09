@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contests</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+  <div class='logo'>
+  </div>
+</header>
+
+<body>
+  <!-- To contain main heading -->
+  <section>
+    <h1>Contests</h1>
+  </section>
+
+  <section class="search-filter-section">
+    <!-- For Search Bar -->
+    <div class="search-container">
+      <input type="text" class="searchBar" id="search" onkeyup="searchBar()" placeholder="Search contests">
+    </div>
+    <!-- Filter Drop down -->
+    <div class="filter-container">
+      <div class="filter-by">Filter By: </div>
+      <span>
+        <select id="typeSelect" onchange="filterBy()" class:"filter-box">
+          <option value="None">Select</option>
+          <option value="ICPC">ICPC</option>
+          <option value="CF">CF</option>
+        </select>
+      </span>
+    </div>
+
+  </section>
+  <div id='future-present-contests'>
+    <section>
+      <h2 class="section-headings"> Current or Upcoming Contests</h2>
+    </section>
+    <!-- To hold cards of ongoing and upcoming sections -->
+    <section id='mainSection'>
+    </section>
+  </div>
+
+  <div id='past-contests'>
+    <section>
+      <h2 class="section-headings">Past Contests</h2>
+    </section>
+
+    <!-- To hold cards of ongoing and upcoming sections -->
+    <section id='pastSection'>
+    </section>
+
+  </div>
+
+  <footer>
+    <!-- To hold page buttons -->
+  </footer>
+
+  <script src="contest.js"></script>
+
+</body>
+
+</html>
