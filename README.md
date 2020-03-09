@@ -1,14 +1,14 @@
 # Contests_Frontend
 
-DESCRIPTION
+## DESCRIPTION
 
-Displayed CodeForces contests using Vanilla Java Script.
+Display CodeForces contests using Vanilla JavaScript.
 
-API Link: ​https://codeforces.com/api/contest.list​
+## API Link: ​https://codeforces.com/api/contest.list​
 
-TO RUN:
+## TO RUN:
 
-Clone:
+git Clone: `https://github.com/shruti1302/Contests_Frontend.git`
 
 `python -m http.server` (for version 3 and above)
 
