@@ -9,17 +9,22 @@ section {
   flex-wrap: wrap;
 }
 
-header {
+.logo-container {
   width: 100%;
   background-color: #fff;
-  color: #FF8800;
+  color: #ff8800;
+  /* margin: 20px; */
   font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  position: relative;
+  top: 0;
   height: 64px;
   font-weight: 700;
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1); */
+  /* margin-top: 0px !important; */
 }
 
 footer {
@@ -37,11 +42,12 @@ h1 {
 }
 
 .logo {
-  border: 6px solid #FF8800;
+  border: 6px solid #ff8800;
   border-radius: 10px;
   width: 32px;
   height: 32px;
-  rotation: 45deg;
+  transform: rotateZ(45deg);
+  /* margin: 3px; */
 }
 
 .reg-button {
@@ -55,15 +61,17 @@ h1 {
   font-weight: 600;
   font-size: 16px;
   margin-right: 32px;
+  border: transparent !important;
 }
 
 .result-button {
   background-color: rgba(255, 136, 0, 0.15);
   border-radius: 8px;
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 4px 0 rgba(255, 136, 0, 0.2);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16),
+    0 2px 4px 0 rgba(255, 136, 0, 0.2);
   width: 111px;
   height: 41px;
-  color: #FF8800;
+  color: #ff8800;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.88px;
@@ -85,6 +93,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
+  /* max-height: 30px !important; */
 }
 
 .search-container {
@@ -113,11 +123,12 @@ h1 {
   font-weight: 400;
   line-height: 19px;
   text-align: left;
+  margin-right: 10px;
 }
 
 .filter-box {
-  background-color: #FFFFFF;
-  border: 1px solid #DDDEDD;
+  background-color: #ffffff;
+  border: 1px solid #dddedd;
   border-radius: 8px;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08);
   width: 135px;
@@ -155,7 +166,7 @@ select {
 }
 
 .open {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.71px;
